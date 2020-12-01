@@ -3,7 +3,7 @@ let chalk = require('chalk')
 let jsonbase = require('jsonbase.com')
 
 // Replace this token with your token (any random string)
-let TOKEN = ''
+let TOKEN = process.env.TOKEN
 
 let store = jsonbase(TOKEN)
 
